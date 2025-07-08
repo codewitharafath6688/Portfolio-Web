@@ -1,0 +1,108 @@
+
+
+.plus-jakarta-sans-normal {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* css common style */
+.text-primary-color{
+    color: #FD6E0A;
+}
+
+.text-dark2-color{
+    color: #474747;
+}
+
+.text-dark1-color{
+    color: #181818;
+}
+
+.text-dark3-color{
+    color: #757575;
+}
+
+.btn-1-style{
+    background-color: #FD6E0A;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Header */
+header{
+    background-image: url('./images/developer.png') , url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: 73px , 500px;
+    background-position: left top , right bottom;
+}
+
+/* Nav Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 20px 140px;
+}
+
+nav h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 140px;
+}
+
+.banner-content{
+    max-width:365.625px;
+}
+
+.banner-content *{
+    margin-bottom: 20px;
+}
+
+.banner-content h3{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.banner-content h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.banner-content p{
+    line-height: 23px;
+}
+
+.btns{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 17px;
+}
